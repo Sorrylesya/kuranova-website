@@ -204,7 +204,7 @@ cursor: url("../images/choosecursor.png"), default;
 }
 .silentvideo iframe{
   position: absolute;
-  width: 1800px;
+  width: 450px;
   top: 60px;
   right: 0px;
   left: 20px;
