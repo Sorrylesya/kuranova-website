@@ -116,7 +116,7 @@ cursor: url("../images/choosecursor.png"), default;
 /* for vlogs.html */
 .vlog img{
   position: absolute;
-  width: 27vh;
+  width: 97vh;
   top: 904px;
   left: 710px;
 }
