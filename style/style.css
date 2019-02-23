@@ -25,9 +25,6 @@
 @media (min-width: 568px) and (max-width: 1800px) {
   display: flex;
 
-  .wrapper {
-    flex-wrap: wrap;
-  }
 }
 
 
@@ -81,7 +78,7 @@ body{
 
    .description {
      font-family:'halibut_serifregular';
-     font-size: 20px;
+     font-size: 23px;
      flex-grow: 1;
      width: 100%;
      text-align: center;
@@ -93,6 +90,9 @@ body{
    }
 
 .title {
+  font-family:'halibut_serifregular';
+  font-size: 23px;
+  flex-grow: 1;
   position: absolute;
   flex-grow: 1;
   width: 331px;
@@ -112,29 +112,46 @@ cursor: url("../images/choosecursor.png"), default;
 .visuals a {
   cursor: url("../images/choosecursor.png"), default;
 }
-
-/* for vlogs.html */
-.vlog img{
+/* for istanbul-video.html */
+.istanbul img{
   position: absolute;
-  width: 96vh;
-  top: 904px;
-  left: 710px;
+  width: 300px;
+  top: 504px;
+  left: 1310px;
 }
-.vlog iframe{
+.istanbulvideo iframe{
   position: absolute;
+  width: 450px;
   top: 60px;
   right: 0px;
   left: 20px;
 }
+
+/* for vlogs.html */
+.vlog img{
+    display: block;
+  position: absolute;
+  top: 160px;
+  right: 0px;
+  left: 1420px;
+  width: 200px;
+
+}
+.vlog iframe{
+  position: absolute;
+  top: 140px;
+  right: 0px;
+  left: 420px;
+}
 .vlog-2 iframe{
   position: absolute;
-  top: 60px;
+  top: 360px;
   right: 0px;
-  left: 380px;
+  left: 1280px;
 }
 .vlog-3 iframe{
   position: absolute;
-  top: 60px;
+  top: 580px;
   right: 0px;
   left: 740px;
 }
@@ -152,20 +169,29 @@ cursor: url("../images/choosecursor.png"), default;
 }
 .vlog-6 iframe{
   position: absolute;
+  top: 510px;
+  right: 0px;
+  left: 280px;
+}
+
+.vlog-7 iframe{
+  position: absolute;
+  width: 280px;
+  height:auto;
   top: 310px;
   right: 0px;
-  left: 380px;
+  left: 880px;
 }
 /* for brand-video.html */
 .brandsvideo img{
   position: absolute;
-  width: 40vh;
+  width: 400px;
   top: 204px;
   left: 910px;
 }
 .brandsvideo iframe{
   position: absolute;
-  width: 30%;
+  width: 450px;
   top: 60px;
   right: 0px;
   left: 20px;
@@ -174,21 +200,21 @@ cursor: url("../images/choosecursor.png"), default;
 /* for silent-video.html */
 .silentvideo img{
   position: absolute;
-  width: 32vh;
-  top: 504px;
+  width: 320px;
+  top: 500px;
   right: 201px;
   left: 200px;
 }
 .silentvideo iframe{
   position: absolute;
-  width: 30%;
+  width: 1800px;
   top: 60px;
   right: 0px;
   left: 20px;
 }
    .visual2 img {
      position: absolute;
-     width: 24vh;
+     width: 200px;
      top: 230px;
      right: 70px;
      left: 350px;
@@ -196,7 +222,7 @@ cursor: url("../images/choosecursor.png"), default;
 
    .visual1 img {
      position: absolute;
-     width: 20vh;
+     width: 150px;
      top: 120px;
      right: 40px;
      left: 50px;
@@ -204,7 +230,7 @@ cursor: url("../images/choosecursor.png"), default;
 
    .visual3 img {
      position: absolute;
-     width: 15vh;
+     width: 150px;
      top: 100px;
      right: 170px;
      left: 600px;
@@ -213,7 +239,7 @@ cursor: url("../images/choosecursor.png"), default;
    /* for calendar.html */
       .calendar-opened img {
         position: absolute;
-        width: 30%;
+        width: 450px;
         top: 60px;
         right: 0px;
         left: 20px;
@@ -224,7 +250,7 @@ cursor: url("../images/choosecursor.png"), default;
       /* for interview.html */
          .interview-opened img {
            position: absolute;
-           width: 30%;
+           width: 450px;
            top: 60px;
            right: 0px;
            left: 20px;
@@ -234,31 +260,31 @@ cursor: url("../images/choosecursor.png"), default;
          }
 .interview-2-opened img {
   position: absolute;
-  width: 30%;
-  top: 680px;
+  width: 450px;
+  top: 700px;
   right: 0px;
   left: 20px;
 }
 .interview-3-opened img {
   position: absolute;
-  width: 30%;
-  top: 1010px;
+  width: 450px;
+  top: 1030px;
   right: 0px;
   left: 20px;
 }
 
 .interview-4-opened img {
   position: absolute;
-  width: 30%;
-  top: 1340px;
+  width: 450px;
+  top: 1370px;
   right: 0px;
   left: 20px;
 }
 
 .interview-5-opened img {
   position: absolute;
-  width: 30%;
-  top: 1670px;
+  width: 450px;
+  top: 1700px;
   right: 0px;
   left: 20px;
 }
@@ -266,48 +292,47 @@ cursor: url("../images/choosecursor.png"), default;
 /* for zine.html */
    .zine img {
      position: absolute;
-     width: 25vh;
-     top: 860px;
-     right: 170px;
-     left: 200px;
+     width: 220px;
+     top: 760px;
+     left: 1370px;
    }
    .zine a {
      cursor: url("../images/choosecursor.png"), default;
    }
    .zine-opened img {
    position: absolute;
-   width: 30%;
+   width: 450px;
    top: 60px;
    right: 0px;
    left: 20px;
    }
    .zine-1-opened img {
    position: absolute;
-   width: 30%;
-   top: 670px;
+   width: 450px;
+   top: 690px;
    right: 0px;
    left: 20px;
    }
 .zine-2-opened img {
 position: absolute;
-width: 30%;
-top: 1295px;
+width: 450px;
+top: 1340px;
 right: 0px;
 left: 20px;
 transform: rotate(180deg);
 }
 .zine-3-opened img {
 position: absolute;
-width: 30%;
-top: 1925px;
+width: 450px;
+top: 1990px;
 right: 0px;
 left: 20px;
 }
 
 .zine-4-opened img {
 position: absolute;
-width: 30%;
-top: 2555px;
+width: 450px;
+top: 2640px;
 right: 0px;
 left: 20px;
 transform: rotate(0deg);
@@ -315,23 +340,23 @@ transform: rotate(0deg);
 
 .zine-5-opened img {
 position: absolute;
-width: 30%;
-top: 3185px;
+width: 450px;
+top: 3290px;
 right: 0px;
 left: 20px;
 }
 .zine-6-opened img {
 position: absolute;
-width: 30%;
-top: 3815px;
+width: 450px;
+top: 3940px;
 right: 0px;
 left: 20px;
 transform: rotate(180deg);
 }
 .zine-7-opened img {
 position: absolute;
-width: 30%;
-top: 4445px;
+width: 450px;
+top: 4590px;
 right: 0px;
 left: 20px;
 transform: rotate(0deg);
@@ -339,8 +364,8 @@ transform: rotate(0deg);
 /* for tex.html */
    .tex img {
      position: absolute;
-     width: 20vh;
-     top: 660px;
+     width: 200px;
+     top: 850px;
      right: 0px;
      left: 820px;
    }
@@ -349,46 +374,46 @@ transform: rotate(0deg);
    }
    .tex-1-opened img {
    position: absolute;
-   width: 30%;
+   width: 450px;
    top: 60px;
    right: 0px;
    left: 20px;
    }
 .tex-2-opened img {
 position: absolute;
-width: 30%;
-top: 680px;
+width: 450px;
+top: 700px;
 right: 0px;
 left: 20px;
 }
 .tex-3-opened img {
 position: absolute;
-width: 30%;
-top: 1010px;
+width: 450px;
+top: 1030px;
 right: 0px;
 left: 20px;
 }
 
 .tex-4-opened img {
 position: absolute;
-width: 30%;
-top: 1340px;
+width: 450px;
+top: 1360px;
 right: 0px;
 left: 20px;
 }
 
 .tex-5-opened img {
 position: absolute;
-width: 30%;
-top: 1670px;
+width: 450px;
+top: 1690px;
 right: 0px;
 left: 20px;
 }
 
 .tex-6-opened img {
 position: absolute;
-width: 30%;
-top: 2000px;
+width: 450px;
+top: 2020px;
 right: 0px;
 left: 20px;
 }
@@ -412,14 +437,14 @@ left: 20px;
       /* for gums.html */
       .gums img {
         position: absolute;
-        width: 24vh;
+        width: 140px;
         top: 460px;
         right: 300px;
         left: 1020px;
       }
          .gums-opened img {
            position: absolute;
-           width: 30%;
+           width: 450px;
            top: 60px;
            right: 0px;
            left: 20px;
@@ -430,22 +455,22 @@ left: 20px;
          /* for routine.html */
          .routine img {
            position: absolute;
-           width: 29vh;
-           top: 660px;
+           width: 290px;
+           top: 690px;
            right: 300px;
-           left: 120px;
+           left: 90px;
          }
             .routine-opened img {
               position: absolute;
-              width: 30%;
+              width: 450px;
               top: 60px;
               right: 0px;
               left: 20px;
             }
             .routine-inside img {
               position: absolute;
-              width: 30%;
-              top: 560px;
+              width: 450px;
+              top: 590px;
               right: 0px;
               left: 20px;
             }
@@ -453,18 +478,12 @@ left: 20px;
               cursor: url("../images/choosecursor.png"), default;
             }
 
-         .hebrarium img {
-           position: absolute;
-           width: 14vh;
-           top: 260px;
-           right: 300px;
-           left: 1220px;
-         }
+
          /* for lugemik.html */
 
         .lugemik img {
           position: absolute;
-          width: 31vh;
+          width: 310px;
           top: 450px;
           right: 300px;
           left: 580px;
@@ -472,32 +491,32 @@ left: 20px;
 
         .lugemik-poster-1-opened img {
           position:absolute;
-          width:30%;
+          width:450px;
           top:60px;
           left:20px;
         }
          .lugemik-poster-2-opened img{
            position: absolute;
-           width: 30%;
-           top: 680px;
+           width: 450px;
+           top: 720px;
            left: 20px;
          }
          .lugemik-poster-3-opened img{
            position: absolute;
-           width: 30%;
-           top: 1300px;
+           width: 450px;
+           top: 1380px;
            left: 20px;
          }
          .lugemik-poster-4-opened img{
            position: absolute;
-           width: 30%;
-           top: 1920px;
+           width: 450px;
+           top: 2040px;
            left: 20px;
          }
          .lugemik-poster-5-opened img{
            position: absolute;
-           width: 30%;
-           top: 2540px;
+           width: 450px;
+           top: 2700px;
            left: 20px;
          }
         .lugemik-poster-1-opened a {
@@ -506,22 +525,28 @@ left: 20px;
 <a href="mailto:lesya@gmail.com?cc=someoneelse@theirsite.com, another@thatsite.com, me@mysite.com&bcc=lastperson@theirsite.com&subject=Big%20News&body=Body-goes-here">Email Us</a>
 
 /* for hebrarium.html */
-
-.hebrarium-opened img{
+/* .hebrarium img {
   position: absolute;
-  width: 30%;
+  width: 450px;
+  top: 430px;
+  left: 1400px;
+  height:auto;
+}
+.hebrarium-1-opened img{
+  position: absolute;
+  width: 450px;
   top: 60px;
   left: 20px;
 }
 .hebrarium-2-opened img{
   position: absolute;
-  width: 30%;
+  width: 450px;
   top: 680px;
   left: 20px;
 }
          .hebrarium-opened a {
            cursor: url("../images/choosecursor.png"), default;
-         }
+         } */
       .wrapper {
         display: flex;
         font-size: 23px;
