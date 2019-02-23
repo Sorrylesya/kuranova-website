@@ -44,10 +44,6 @@ iframe:hover {
 
   }
 
-  .visuals {
-    display: flex;
-}
-
 
   .item {
     width: 60%;
@@ -88,6 +84,7 @@ body{
      padding-left: 500px;
      padding-right: 20px;
    }
+
 
 .title {
   font-family:'halibut_serifregular';
@@ -518,6 +515,14 @@ left: 20px;
            width: 450px;
            top: 2700px;
            left: 20px;
+         }
+
+         .lugemikvideo iframe {
+           position: absolute;
+           width: 450px;
+           top: 3400px;
+           left: 20px;
+
          }
         .lugemik-poster-1-opened a {
         cursor: url("../images/choosecursor.png"), default;
