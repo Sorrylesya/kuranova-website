@@ -35,6 +35,23 @@ html {
 }
 
 
+/* .sendboards {
+  position: absolute;
+}
+
+.sendboards-container {
+  display: inline-block;
+  position: absolute;
+  background-color: yellow;
+  padding: 10px;
+  margin: 5px 5px;
+
+}
+
+.sendboards-drag {
+  touch-action: none;
+  box-sizing: border-box;
+} */
 
 .rapidfashion img {
   position: absolute;
