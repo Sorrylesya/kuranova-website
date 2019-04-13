@@ -5,7 +5,6 @@
   box-sizing: border-box;
 }
 
-
 @font-face {
     font-family: 'halibut_serifregular';
     src: url('halibutserif-regular-webfont.eot');
@@ -33,6 +32,32 @@ html {
 	margin: 0;
 	padding: 0;
 	font-family: 'halibut_serifregular';
+}
+
+
+/* .sendboards {
+  position: absolute;
+}
+
+.sendboards-container {
+  display: inline-block;
+  position: absolute;
+  background-color: yellow;
+  padding: 10px;
+  margin: 5px 5px;
+
+}
+
+.sendboards-drag {
+  touch-action: none;
+  box-sizing: border-box;
+} */
+
+.rapidfashion img {
+  position: absolute;
+  width: 300px;
+  top: 1004px;
+  left: 1000px;
 }
 
 x {
@@ -64,7 +89,7 @@ x {
 	flex-direction: column;
 	justify-content: center;
 
-  position: absolute;
+  position: fixed;
   width: 200px;
   top: 0px;
 
@@ -74,10 +99,12 @@ x {
 	width: 205px;
 	height: 105px;
 	overflow: hidden;
+  background-color: white;
 	box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
 	transform: translatey(0px);
 	animation: float 2s ease-in-out infinite;
 	img { width: 100%; height: auto; }
+
 }
 
 .content {
@@ -134,15 +161,15 @@ body{
 
    .description {
      font-family:'halibut_serifregular';
-     font-size: 23px;
+     font-size: 13px;
      flex-grow: 1;
      width: 100%;
-     text-align: center;
      column-count: 2;
      column-gap: 40px;
      padding-top: 60px;
      padding-left: 500px;
      padding-right: 20px;
+     position: fixed;
    }
 
 
@@ -153,8 +180,8 @@ body{
   position: absolute;
   flex-grow: 1;
   width: 331px;
+  left: 500px;
   height: 26px;
-  left: 20px;
   top: 25px;
 }
 
@@ -542,7 +569,7 @@ left: 20px;
         font-size: 23px;
         flex-grow: 1;
         top: 25px;
-        right: 20px;
+        left: 20px;
       }
 
 
