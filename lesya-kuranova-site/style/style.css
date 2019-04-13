@@ -163,7 +163,7 @@ body{
      font-family:'halibut_serifregular';
      font-size: 13px;
      flex-grow: 1;
-     width: 100%;
+     width: 50%;
      column-count: 2;
      column-gap: 40px;
      padding-top: 60px;
