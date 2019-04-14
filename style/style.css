@@ -157,6 +157,16 @@ body{
   height: 1200px;
 }
 
+.back-line {
+font-family:'halibut_serifregular';
+font-size: 23px;
+flex-grow: 1;
+top: 25px;
+left: 20px;
+height: 26px;
+position: absolute;
+}
+
    .description {
      font-family:'halibut_serifregular';
      font-size: 13px;
@@ -558,14 +568,6 @@ position: absolute;
 width: 450px;
 top: 2020px;
 right: 0px;
-left: 20px;
-}
-
-.back-line {
-font-family:'halibut_serifregular';
-font-size: 23px;
-flex-grow: 1;
-top: 25px;
 left: 20px;
 }
 
