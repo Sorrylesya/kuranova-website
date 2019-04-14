@@ -162,7 +162,7 @@ body{
      font-size: 13px;
      flex-grow: 1;
      width: 100%;
-     column-count: 4;
+     column-count: 2;
      column-gap: 40px;
      padding-top: 60px;
      padding-left: 500px;
@@ -561,14 +561,13 @@ right: 0px;
 left: 20px;
 }
 
-      .back-line {
-        position: absolute;
-        font-family:'halibut_serifregular';
-        font-size: 23px;
-        flex-grow: 1;
-        top: 25px;
-        left: 20px;
-      }
+.back-line {
+font-family:'halibut_serifregular';
+font-size: 23px;
+flex-grow: 1;
+top: 25px;
+left: 20px;
+}
 
 
       .wrapper a {
