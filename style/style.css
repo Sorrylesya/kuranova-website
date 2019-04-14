@@ -138,12 +138,12 @@ iframe:hover {
     padding: 10px;
     flex-grow: 1;
   }
-  .yournotes {
+/*  .yournotes {
     height: 100%;
     width: 30%;
     padding: 10px;
     flex-grow: 1;
-  }
+  } */
 
 
   .box a {
@@ -157,7 +157,7 @@ body{
   height: 1200px;
 }
 
-.back-lines {
+.back-line {
 font-family:'halibut_serifregular';
 font-size: 23px;
 flex-grow: 1;
