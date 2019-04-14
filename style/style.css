@@ -214,7 +214,7 @@ cursor: url("../images/choosecursor.png"), default;
 .istanbulvideo iframe{
   position: absolute;
   width: 450px;
-  top: 60px;
+  top: 25px;
   right: 0px;
   left: 20px;
 }
@@ -345,7 +345,7 @@ width: 200px;
 .brandsvideo iframe{
   position: absolute;
   width: 450px;
-  top: 60px;
+  top: 25px;
   right: 0px;
   left: 20px;
 }
@@ -361,7 +361,7 @@ width: 200px;
 .silentvideo iframe{
   position: absolute;
   width: 450px;
-  top: 60px;
+  top: 25px;
   right: 0px;
   left: 20px;
 }
@@ -404,7 +404,7 @@ width: 200px;
          .interview-opened img {
            position: absolute;
            width: 450px;
-           top: 60px;
+           top: 25px;
            right: 0px;
            left: 20px;
          }
@@ -455,7 +455,7 @@ width: 200px;
    .zine-opened img {
    position: absolute;
    width: 450px;
-   top: 60px;
+   top: 25px;
    right: 0px;
    left: 20px;
    }
@@ -528,21 +528,21 @@ transform: rotate(0deg);
    .tex-1-opened img {
    position: absolute;
    width: 450px;
-   top: 60px;
+   top: 25px;
    right: 0px;
    left: 20px;
    }
 .tex-2-opened img {
 position: absolute;
 width: 450px;
-top: 700px;
+top: 665px;
 right: 0px;
 left: 20px;
 }
 .tex-3-opened img {
 position: absolute;
 width: 450px;
-top: 1030px;
+top: 995px;
 right: 0px;
 left: 20px;
 }
@@ -550,7 +550,7 @@ left: 20px;
 .tex-4-opened img {
 position: absolute;
 width: 450px;
-top: 1360px;
+top: 1325px;
 right: 0px;
 left: 20px;
 }
@@ -558,7 +558,7 @@ left: 20px;
 .tex-5-opened img {
 position: absolute;
 width: 450px;
-top: 1690px;
+top: 1655px;
 right: 0px;
 left: 20px;
 }
@@ -566,7 +566,7 @@ left: 20px;
 .tex-6-opened img {
 position: absolute;
 width: 450px;
-top: 2020px;
+top: 1985px;
 right: 0px;
 left: 20px;
 }
