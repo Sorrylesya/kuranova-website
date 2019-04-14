@@ -115,13 +115,13 @@ x {
   outline-style: none;
 }
 
-img:hover {
+/* img:hover {
   outline: solid 7px #FF1200;
 }
 
 iframe:hover {
   outline: solid 7px #FF1200;
-}
+} */
 
 
   .box {
