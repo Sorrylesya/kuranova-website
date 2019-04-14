@@ -157,7 +157,7 @@ body{
   height: 1200px;
 }
 
-.back-line {
+.back-lines {
 font-family:'halibut_serifregular';
 font-size: 23px;
 flex-grow: 1;
@@ -172,7 +172,7 @@ position: absolute;
      font-size: 13px;
      flex-grow: 1;
      width: 100%;
-     column-count: 1;
+     column-count: 2;
      column-gap: 40px;
      padding-top: 60px;
      padding-left: 500px;
