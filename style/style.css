@@ -778,6 +778,7 @@ visibility: hidden;
 
 .black-items {
 background-color: white
+z-index: -1;
 }
         .you-submit-boards img {
           position: fixed;
