@@ -21,7 +21,7 @@
 }
 
 
-@media (min-width: 568px) and (max-width: 1800px) {
+@media (min-width: 500px) and (max-width: 1800px) {
   display: flex;
 
 
@@ -726,21 +726,26 @@ left: 20px;
         font-family:'halibut_serifregular';
 
 }
+.you-submit-boards {
+visibility: hidden;
       }
 
-      .you-submit-boards {
+      .mobile-box {
+        visibility: hidden;
+      }
+      .mobile-item {
+        visibility: hidden;
+      }
+
+      }
+      .visit-desktop {
       visibility: hidden;
             }
 
-            .mobile-box {
-              visibility: hidden;
-            }
-            .mobile-item {
-              visibility: hidden;
-            }
 
-      @media (max-width: 1000px) {
 
+
+      @media (max-width: 500px) {
         .you-submit-boards img {
           position: fixed;
           top: 260px;
@@ -751,39 +756,27 @@ left: 20px;
 
         }
 
-        .container {
-        	width: 100%;
-        	height: 100%;
-        	display: flex;
-        	flex-direction: row;
-        	justify-content: center;
+        .visit-desktop {
+          position: fixed;
+          top: 160px;
+          right: 0px;
+          left: 10px;
+          width: 950px;
+          transform: rotate(10deg);
+              }
+
+        .mobile-container {
+          width: 100%;
+          height: 100%;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
 
           position: fixed;
           width: 200px;
           top: 0px;
 
         }
-
-        .avatar {
-        	width: 205px;
-        	height: 105px;
-        	overflow: hidden;
-          background-color: white;
-        	box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
-        	transform: translatey(0px);
-        	animation: float 2s ease-in-out infinite;
-        	img { width: 100%; height: auto; }
-
-        }
-
-        .content {
-        	width: 100%;
-        	max-width: 600px;
-        	padding: 20px 40px;
-          color: black;
-          outline-style: none;
-        }
-
 
           .mobile-box {
             display: flex;
@@ -807,9 +800,20 @@ left: 20px;
 
          }
 
-        body{
-          height: 1200px;
-        }
+        .submit-boards {
+        visibility: hidden;
+              }
+
+
+
+              .box {
+                visibility: hidden;
+              }
+              .item {
+                visibility: hidden;
+              }
+
+
 
 .visuals {
 visibility: hidden;
