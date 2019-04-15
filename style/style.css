@@ -764,14 +764,13 @@ left: 20px;
 .you-submit-boards img {
 visibility: hidden;
       }
+  
 
-
+            .visit-desktop-mobile img {
+            visibility: hidden;
+                  }
 
       }
-      .visit-desktop img {
-      visibility: hidden;
-            }
-
 
 
 
@@ -799,8 +798,6 @@ background-color: white
           transform: rotate(10deg);
 
           }
-
-
 
               .box {
                 visibility: hidden;
