@@ -788,7 +788,7 @@ visibility: hidden;
           top: 260px;
           right: 0px;
           left: 100px;
-          width: 950px;
+          width: 95vh;
           transform: rotate(-20deg);
 
         }
@@ -798,7 +798,7 @@ visibility: hidden;
           top: 260px;
           right: 30px;
           left: -50px;
-          width: 850px;
+          width: 85vh;
           transform: rotate(10deg);
 
           }
