@@ -778,7 +778,6 @@ visibility: hidden;
 
 .black-items {
 background-color: white
-z-index:-2;
 }
         .you-submit-boards img {
           position: fixed;
@@ -802,13 +801,16 @@ z-index:-2;
 
               .box {
                 visibility: hidden;
+                background-color: white
               }
               .item {
                 visibility: hidden;
+                background-color: white
               }
 
             .visuals {
             visibility: hidden;
+            background-color: white
            }
 
     }
