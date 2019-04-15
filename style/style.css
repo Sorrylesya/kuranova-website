@@ -777,13 +777,15 @@ visibility: hidden;
 
       @media (max-width: 1000px) {
 
-
+.black-items {
+background-color: white
+}
         .you-submit-boards img {
           position: fixed;
           top: 260px;
           right: 0px;
           left: 100px;
-          width: 135vh;
+          width: 195vh;
           transform: rotate(-20deg);
 
         }
@@ -793,7 +795,7 @@ visibility: hidden;
           top: 260px;
           right: 30px;
           left: -50px;
-          width: 165vh;
+          width: 225vh;
           transform: rotate(10deg);
 
           }
