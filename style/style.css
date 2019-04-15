@@ -764,7 +764,7 @@ left: 20px;
 .you-submit-boards img {
 visibility: hidden;
       }
-  
+
 
             .visit-desktop-mobile img {
             visibility: hidden;
@@ -778,6 +778,7 @@ visibility: hidden;
 
 .black-items {
 background-color: white
+z-index:-2;
 }
         .you-submit-boards img {
           position: fixed;
