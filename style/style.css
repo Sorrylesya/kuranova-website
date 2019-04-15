@@ -133,7 +133,7 @@ iframe:hover {
 
 
   .item {
-    width: 60%;
+    width: 100%;
     height: 100%;
     padding: 10px;
     flex-grow: 1;
@@ -191,6 +191,15 @@ position: absolute;
   left: 500px;
   height: 26px;
   top: 25px;
+}
+
+.title-for-random {
+  font-family:'halibut_serifregular';
+  font-size: 23px;
+  width: 60%;
+  height: 100%;
+  padding: 10px;
+  flex-grow: 1;
 }
 
 
@@ -276,6 +285,16 @@ top: 100px;
 right: 0px;
 left: 220px;
 width: 200px;
+}
+
+.submit-boards img {
+  position: fixed;
+  top: 260px;
+  right: 0px;
+  left: 100px;
+  width: 950px;
+  transform: rotate(-20deg);
+
 }
 
 
@@ -414,14 +433,14 @@ width: 200px;
 .interview-2-opened img {
   position: absolute;
   width: 450px;
-  top: 700px;
+  top: 665px;
   right: 0px;
   left: 20px;
 }
 .interview-3-opened img {
   position: absolute;
   width: 450px;
-  top: 1030px;
+  top: 995px;
   right: 0px;
   left: 20px;
 }
@@ -429,7 +448,7 @@ width: 200px;
 .interview-4-opened img {
   position: absolute;
   width: 450px;
-  top: 1370px;
+  top: 1325px;
   right: 0px;
   left: 20px;
 }
@@ -437,7 +456,7 @@ width: 200px;
 .interview-5-opened img {
   position: absolute;
   width: 450px;
-  top: 1700px;
+  top: 1655px;
   right: 0px;
   left: 20px;
 }
@@ -462,14 +481,14 @@ width: 200px;
    .zine-1-opened img {
    position: absolute;
    width: 450px;
-   top: 690px;
+   top: 655px;
    right: 0px;
    left: 20px;
    }
 .zine-2-opened img {
 position: absolute;
 width: 450px;
-top: 1340px;
+top: 1300px;
 right: 0px;
 left: 20px;
 transform: rotate(180deg);
@@ -477,7 +496,7 @@ transform: rotate(180deg);
 .zine-3-opened img {
 position: absolute;
 width: 450px;
-top: 1990px;
+top: 1945px;
 right: 0px;
 left: 20px;
 }
@@ -485,7 +504,7 @@ left: 20px;
 .zine-4-opened img {
 position: absolute;
 width: 450px;
-top: 2640px;
+top: 2590px;
 right: 0px;
 left: 20px;
 transform: rotate(0deg);
@@ -494,14 +513,14 @@ transform: rotate(0deg);
 .zine-5-opened img {
 position: absolute;
 width: 450px;
-top: 3290px;
+top: 3235px;
 right: 0px;
 left: 20px;
 }
 .zine-6-opened img {
 position: absolute;
 width: 450px;
-top: 3940px;
+top: 3880px;
 right: 0px;
 left: 20px;
 transform: rotate(180deg);
@@ -509,7 +528,7 @@ transform: rotate(180deg);
 .zine-7-opened img {
 position: absolute;
 width: 450px;
-top: 4590px;
+top: 4525px;
 right: 0px;
 left: 20px;
 transform: rotate(0deg);
@@ -589,7 +608,7 @@ left: 20px;
          .gums-opened img {
            position: absolute;
            width: 450px;
-           top: 60px;
+           top: 25px;
            right: 0px;
            left: 20px;
          }
@@ -607,14 +626,14 @@ left: 20px;
             .routine-opened img {
               position: absolute;
               width: 450px;
-              top: 60px;
+              top: 25px;
               right: 0px;
               left: 20px;
             }
             .routine-inside img {
               position: absolute;
               width: 450px;
-              top: 590px;
+              top: 555px;
               right: 0px;
               left: 20px;
             }
@@ -636,38 +655,38 @@ left: 20px;
         .lugemik-poster-1-opened img {
           position:absolute;
           width:450px;
-          top:60px;
+          top:25px;
           left:20px;
         }
          .lugemik-poster-2-opened img{
            position: absolute;
            width: 450px;
-           top: 720px;
+           top: 685px;
            left: 20px;
          }
          .lugemik-poster-3-opened img{
            position: absolute;
            width: 450px;
-           top: 1380px;
+           top: 1345px;
            left: 20px;
          }
          .lugemik-poster-4-opened img{
            position: absolute;
            width: 450px;
-           top: 2040px;
+           top: 2005px;
            left: 20px;
          }
          .lugemik-poster-5-opened img{
            position: absolute;
            width: 450px;
-           top: 2700px;
+           top: 2660px;
            left: 20px;
          }
 
          .lugemikvideo iframe {
            position: absolute;
            width: 450px;
-           top: 3400px;
+           top: 3320px;
            left: 20px;
 
          }
