@@ -782,7 +782,7 @@ background-color: white
 }
         .you-submit-boards img {
           position: fixed;
-          top: 260px;
+          top: 300px;
           right: 0px;
           left: 100px;
           width: 195vh;
@@ -792,7 +792,7 @@ background-color: white
 
         .visit-desktop-mobile img {
           position: fixed;
-          top: 260px;
+          top: 360px;
           right: 30px;
           left: -50px;
           width: 225vh;
