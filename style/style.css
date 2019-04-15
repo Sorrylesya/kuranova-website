@@ -24,7 +24,7 @@
 @media (min-width: 568px) and (max-width: 1800px) {
   display: flex;
 
-}
+
 
 body,
 html {
@@ -723,3 +723,13 @@ left: 20px;
         display: flex;
         font-size: 23px;
         font-family:'halibut_serifregular';
+
+}
+      }
+
+      @media (max-width: 1000px) {
+.visuals {
+visibility: hidden;
+
+      }
+    }
