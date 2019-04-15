@@ -283,8 +283,40 @@ width: 350px;
 position: absolute;
 top: 100px;
 right: 0px;
-left: 220px;
+left: 200px;
+width: 270px;
+}
+
+.board5 img {
+position: absolute;
+top: 900px;
+right: 0px;
+left: 1020px;
+width: 400px;
+}
+
+.board6 img {
+position: absolute;
+top: 800px;
+right: 0px;
+left: 680px;
 width: 200px;
+}
+
+.board7 img {
+position: absolute;
+top: 700px;
+right: 0px;
+left: 20px;
+width: 360px;
+}
+
+.board8 img {
+position: absolute;
+top: 480px;
+right: 0px;
+left: 1020px;
+width: 150px;
 }
 
 .submit-boards img {
@@ -696,6 +728,9 @@ left: 20px;
         }
 <a href="mailto:lesya@gmail.com?cc=someoneelse@theirsite.com, another@thatsite.com, me@mysite.com&bcc=lastperson@theirsite.com&subject=Big%20News&body=Body-goes-here">Email Us</a>
 
+<a href="mailto:lesya@gmail.com?cc=someoneelse@theirsite.com, another@thatsite.com, me@mysite.com&bcc=lastperson@theirsite.com&subject=Big%20News&body=Body-goes-here">Email Us</a>
+
+
 
 /* for hebrarium.html */
 /* .hebrarium img {
@@ -726,7 +761,7 @@ left: 20px;
         font-family:'halibut_serifregular';
 
 }
-.you-submit-boards {
+.you-submit-boards img {
 visibility: hidden;
       }
 
@@ -738,7 +773,7 @@ visibility: hidden;
       }
 
       }
-      .visit-desktop {
+      .visit-desktop img {
       visibility: hidden;
             }
 
@@ -746,6 +781,8 @@ visibility: hidden;
 
 
       @media (max-width: 500px) {
+
+
         .you-submit-boards img {
           position: fixed;
           top: 260px;
@@ -756,55 +793,19 @@ visibility: hidden;
 
         }
 
-        .visit-desktop {
+        .visit-desktop-mobile img {
           position: fixed;
-          top: 160px;
-          right: 0px;
-          left: 10px;
-          width: 950px;
+          top: 260px;
+          right: 30px;
+          left: -50px;
+          width: 850px;
           transform: rotate(10deg);
-              }
-
-        .mobile-container {
-          width: 100%;
-          height: 100%;
-          display: flex;
-          flex-direction: row;
-          justify-content: center;
-
-          position: fixed;
-          width: 200px;
-          top: 0px;
-
-        }
-
-          .mobile-box {
-            display: flex;
-            font-size: 23px;
-            font-family:'halibut_serifregular';
 
           }
-
-
-          .mobile-item {
-            width: 100%;
-            height: 100%;
-            padding: 10px;
-            flex-grow: 1;
-          }
-
-          .mobile-box a {
-           font-family:'halibut_serifregular';
-           text-decoration: none;
-           color: #000000;
-
-         }
 
         .submit-boards {
         visibility: hidden;
-              }
-
-
+        }
 
               .box {
                 visibility: hidden;
@@ -813,10 +814,8 @@ visibility: hidden;
                 visibility: hidden;
               }
 
+            .visuals {
+            visibility: hidden;
+           }
 
-
-.visuals {
-visibility: hidden;
-
-      }
     }
