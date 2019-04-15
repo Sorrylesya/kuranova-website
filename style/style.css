@@ -765,12 +765,7 @@ left: 20px;
 visibility: hidden;
       }
 
-      .mobile-box {
-        visibility: hidden;
-      }
-      .mobile-item {
-        visibility: hidden;
-      }
+
 
       }
       .visit-desktop img {
@@ -803,9 +798,7 @@ visibility: hidden;
 
           }
 
-        .submit-boards {
-        visibility: hidden;
-        }
+      
 
               .box {
                 visibility: hidden;
@@ -817,10 +810,5 @@ visibility: hidden;
             .visuals {
             visibility: hidden;
            }
-           .mobile-box {
-             visibility: hidden;
-           }
-           .mobile-item {
-             visibility: hidden;
-           }
+
     }
