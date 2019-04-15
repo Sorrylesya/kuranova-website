@@ -783,7 +783,7 @@ visibility: hidden;
           top: 260px;
           right: 0px;
           left: 100px;
-          width: 95vh;
+          width: 135vh;
           transform: rotate(-20deg);
 
         }
@@ -793,12 +793,12 @@ visibility: hidden;
           top: 260px;
           right: 30px;
           left: -50px;
-          width: 85vh;
+          width: 165vh;
           transform: rotate(10deg);
 
           }
 
-      
+
 
               .box {
                 visibility: hidden;
