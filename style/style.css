@@ -21,7 +21,7 @@
 }
 
 
-@media (min-width: 500px) and (max-width: 1800px) {
+@media (min-width: 1000px) and (max-width: 1800px) {
   display: flex;
 
 
@@ -780,7 +780,7 @@ visibility: hidden;
 
 
 
-      @media (max-width: 500px) {
+      @media (max-width: 1000px) {
 
 
         .you-submit-boards img {
