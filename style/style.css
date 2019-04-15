@@ -817,5 +817,10 @@ visibility: hidden;
             .visuals {
             visibility: hidden;
            }
-
+           .mobile-box {
+             visibility: hidden;
+           }
+           .mobile-item {
+             visibility: hidden;
+           }
     }
