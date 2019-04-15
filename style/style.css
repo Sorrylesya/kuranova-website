@@ -784,7 +784,7 @@ background-color: white
           top: 300px;
           right: 0px;
           left: 100px;
-          width: 195vh;
+          width: 195%;
           transform: rotate(-20deg);
 
         }
@@ -794,7 +794,7 @@ background-color: white
           top: 360px;
           right: 30px;
           left: -50px;
-          width: 225vh;
+          width: 225%;
           transform: rotate(10deg);
 
           }
