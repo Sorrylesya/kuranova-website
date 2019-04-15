@@ -21,7 +21,7 @@
 }
 
 
-@media (min-width: 1000px) and (max-width: 1800px) {
+@media (min-width: 800px) and (max-width: 1800px) {
   display: flex;
 
 
@@ -774,7 +774,7 @@ visibility: hidden;
 
 
 
-      @media (max-width: 1000px) {
+      @media (max-width: 800px) {
 
 .black-items {
 background-color: white
