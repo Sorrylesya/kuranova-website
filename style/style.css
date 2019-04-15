@@ -299,6 +299,7 @@ width: 200px;
 
 
 
+
 /* for vlogs.html */
 .vlog img{
     display: block;
@@ -727,7 +728,89 @@ left: 20px;
 }
       }
 
+      .you-submit-boards {
+      visibility: hidden;
+            }
+
+            .mobile-box {
+              visibility: hidden;
+            }
+            .mobile-item {
+              visibility: hidden;
+            }
+
       @media (max-width: 1000px) {
+
+        .you-submit-boards img {
+          position: fixed;
+          top: 260px;
+          right: 0px;
+          left: 100px;
+          width: 950px;
+          transform: rotate(-20deg);
+
+        }
+
+        .container {
+        	width: 100%;
+        	height: 100%;
+        	display: flex;
+        	flex-direction: row;
+        	justify-content: center;
+
+          position: fixed;
+          width: 200px;
+          top: 0px;
+
+        }
+
+        .avatar {
+        	width: 205px;
+        	height: 105px;
+        	overflow: hidden;
+          background-color: white;
+        	box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+        	transform: translatey(0px);
+        	animation: float 2s ease-in-out infinite;
+        	img { width: 100%; height: auto; }
+
+        }
+
+        .content {
+        	width: 100%;
+        	max-width: 600px;
+        	padding: 20px 40px;
+          color: black;
+          outline-style: none;
+        }
+
+
+          .mobile-box {
+            display: flex;
+            font-size: 23px;
+            font-family:'halibut_serifregular';
+
+          }
+
+
+          .mobile-item {
+            width: 100%;
+            height: 100%;
+            padding: 10px;
+            flex-grow: 1;
+          }
+
+          .mobile-box a {
+           font-family:'halibut_serifregular';
+           text-decoration: none;
+           color: #000000;
+
+         }
+
+        body{
+          height: 1200px;
+        }
+
 .visuals {
 visibility: hidden;
 
